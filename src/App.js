@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero";
 import Slider from "./components/slider/Slider";
 import Virtual from "./components/virtual/Virtual";
 import Products from "./components/products/products";
+import Testimonials from "./components/testimonials/testimonials";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Slider/>
             <Virtual/>
             <Products/>
+            <Testimonials/>
         </div>
     );
 }
