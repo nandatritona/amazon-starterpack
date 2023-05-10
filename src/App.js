@@ -5,6 +5,7 @@ import Slider from "./components/slider/Slider";
 import Virtual from "./components/virtual/Virtual";
 import Products from "./components/products/products";
 import Testimonials from "./components/testimonials/testimonials";
+import Footer from "./components/footer/footer";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Virtual/>
             <Products/>
             <Testimonials/>
+            <Footer/>
         </div>
     );
 }
